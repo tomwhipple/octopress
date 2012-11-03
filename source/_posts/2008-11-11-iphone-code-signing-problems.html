@@ -1,0 +1,26 @@
+--- 
+title: iPhone code signing problems
+status: publish
+tags: 
+- iPhone
+- notes
+- programming
+layout: post
+meta: {}
+
+type: post
+published: true
+---
+<em>UPDATE: If you think it should work and it continues to cause problems, use the windows solution (i.e. reboot everything) and do a clean build. Here is a more current <a href="http://www.24100.net/2009/02/iphone-sdk-mobile-provisioning-0xe800003a-0xe8000001/">discussion</a>.</em>
+
+As many developers have figured out by now, iPhone code signing is unnecessarily difficult. To make matters worse, it doesn't sound like Apple is very responsive to their developers. (In my case they have yet to get back to me after two days.) A couple of key points:
+<ol>
+	<li>In the main XCode screen, highlight Targets-&gt;AppName, and click the info button. Under Build, the "Code Signing Identity" must <em>exactly</em> match the certificate name from the certificate manager.An Open Question: Does this value get inherited from the project values?</li>
+	<li>The Resources-&gt;info.plist file must have the correct app id. In my case
+com.tomwhipple.${PRODUCT_NAME:identifier}</li>
+</ol>
+A couple of more detailed discussions:
+<ul>
+	<li><a href="http://www.talentgrouplabs.com/blog/archive/2008/08/21/preflightingapplication-errors-0xe8000001-and-others.aspx">24100.net</a> (very detailed and helpful)</li>
+	<li><a href="http://discussions.apple.com/thread.jspa?threadID=1721273&amp;tstart=0">Apple</a> (a developer discussion thread)</li>
+</ul>
