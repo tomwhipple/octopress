@@ -12,13 +12,10 @@ type: page
 published: true
 ---
 <ul>
-		<li><a name="roomba_hacking"></a>
-		<h2>Roomba Control</h2>
-		<table width=100%><tr><td>I am working on getting my Roomba robotic vacuum to communicate via its serial port. This project is in the early stages, but I hope to be able to apply previous work (see below) to a much cheaper robot platform.</td><td align=right><img align="right" src="/img/roomba_sm.png" style="padding: 5px;" /></td></tr></table></li>
-		
+
 		<li><a name="multires_contour"></a>
 <h2>Multi-resolution analysis of contours for classification</h2>
-<p>For my M.S. research I analized how to learn multi-resolution distribution of contours. The idea is that it makes sense to make classification decisions based on the overall shape of an object and ignore the details. However, in other situations, those details are important. The two main challenges were: 1) choosing a representation for the shapes that allows comparison and manipulation without introducing dependencies on the particular representation, and 2) finding an appropriate trade-off between global and local information.</p>
+<p>For my M.S. research I analyzed how to learn multi-resolution distribution of contours. The idea is that it makes sense to make classification decisions based on the overall shape of an object and ignore the details. However, in other situations, those details are important. The two main challenges were: 1) choosing a representation for the shapes that allows comparison and manipulation without introducing dependencies on the particular representation, and 2) finding an appropriate trade-off between global and local information.</p>
 <center><table border=0 cellspacing=0 cellpadding=0 width="70%">
 <tr><td align="center"><img src="/img/multires.png" /></td></tr>
 <tr><td class="caption">A multi-resolution decomposition of the outline of a maple leaf. Each outline shows the addition of one level of detail. When does the blob become a maple leaf?</td></tr>
@@ -31,7 +28,7 @@ published: true
 
 	<li><a name="portland_proj"></a>
 	<h2>Portland Test suite</h2>
-	The <a href="http://fredesktop.org">freedesktop.org</a> <a href="http://portland.freedesktop.org">Portland project</a> is an initiative to create a unified desktop API across the various combinations of Linux desktop environments and distributions. The <a href="http://portland.freedesktop.org/xdg-utils-1.0/">xdg-utils</a> are a set of command line utilites that work with as many <i>current</i> distributions as possible, since the time it takes to get them into distributions is too long. To that end, Intel hired me to develop a <a href="http://portland.freedesktop.org/wiki/TestSuite">test suite</a> to verify the xdg-utils functionality.
+	The <a href="http://fredesktop.org">freedesktop.org</a> <a href="http://portland.freedesktop.org">Portland project</a> is an initiative to create a unified desktop API across the various combinations of Linux desktop environments and distributions. The <a href="http://portland.freedesktop.org/xdg-utils-1.0/">xdg-utils</a> are a set of command line utilities that work with as many <i>current</i> distributions as possible, since the time it takes to get them into distributions is too long. To that end, Intel hired me to develop a <a href="http://portland.freedesktop.org/wiki/TestSuite">test suite</a> to verify the xdg-utils functionality.
 	
 	</li><li>
 <a name="size_function"></a>
@@ -59,13 +56,13 @@ published: true
 		</td></tr>
 </table></center>
 <br/>
-<p>The project used the Aria robot API (C++) to control an ActiveMedia Pioneer robot equipped with a SICK laser range finder. The robot's position is tracked using its wheel encoders, which is a notoriously inaccurate method. However, since obstacle avoidance is meant as an assistng technology, this level of error is acceptable.</p>
+<p>The project used the Aria robot API (C++) to control an ActiveMedia Pioneer robot equipped with a SICK laser range finder. The robot's position is tracked using its wheel encoders, which is a notoriously inaccurate method. However, since obstacle avoidance is meant as an assisting technology, this level of error is acceptable.</p>
 </li>
 <li>
 <a name="solarcar"></a>
 <h2>Solar Vehicle Racing</h2>
 <img align="right" src="/img/borealis3_front_right.jpg" style="padding: 5px;" />
-<p>Every two years teams of undergraduate students from around the US and Canada design and build cars powered exclusively by the sun and race them across the country. I was part of the team that built the <a href="http://www.umn.edu/~umnsvp/">University of Minnesota's Borealis 3 car</a>, and was a race strategest for the 2005 <a href="http://www.americansolarchallenge.org/">North American Solar challenge</a>. The Minnesota team was runner up by a narrow margin of 15 minutes out of a 54 hour, 2500 mile race. Minnesota won first place at the <a href="http://www.formulasun.org/fsgp/event/fsgp2005/history/index.html">2005 Formula Sun Grand Prix</a>.</p>
+<p>Every two years teams of undergraduate students from around the US and Canada design and build cars powered exclusively by the sun and race them across the country. I was part of the team that built the <a href="http://www.umn.edu/~umnsvp/">University of Minnesota's Borealis 3 car</a>, and was a race strategist for the 2005 <a href="http://www.americansolarchallenge.org/">North American Solar challenge</a>. The Minnesota team was runner up by a narrow margin of 15 minutes out of a 54 hour, 2500 mile race. Minnesota won first place at the <a href="http://www.formulasun.org/fsgp/event/fsgp2005/history/index.html">2005 Formula Sun Grand Prix</a>.</p>
 <h3>Solar Racing strategy</h3>
 <p>I was one of two members of the race strategy team. The strategists are responsible for controlling the car's energy output via its speed. Of course, the overall race goal is to be the first to cross the finish line. However, in order to do this, a successful team must carefully manage how much energy remains in the car's battery. When the car crosses the finish line, the battery will ideally be empty; if not, the car could have driven faster and crossed the line sooner. But, if the battery is drained too quickly the car must slow down and is at risk to be caught by competitors. Complicating the situation is the fact that the power required to drive at any given speed is proportional to the cube of that speed. (This is why you burn more gas driving 80 vs. 70 than 70 vs. 60, and why speeds were regulated to 55MPH during the oil crisis of the 1970's.)</p>
 
