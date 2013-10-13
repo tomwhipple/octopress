@@ -1,0 +1,33 @@
+---
+layout: post
+title: "My GPG public key ID: 7DBCC339"
+date: 2013-10-13 14:40
+comments: true
+categories: 
+---
+
+### Key fingerprint:
+
+```
+C7C3 0951 F2A5 6B85 3CD7  8801 4EFD 0909 7DBC C339
+```
+
+[Download key](/tomwhipple-7DBCC339.asc)
+
+## Long overdue
+
+Posting a public encryption key has been on my mental TODO list for some time. Recent revelations about routine NSA surveillance has caused widespread outcry, yet how many people actually use strong encryption for personal communication on a daily basis? Tools like [GPG](http://www.gnupg.org/) can be difficult to use, so they get little acceptance. Additionally, managing crypto keys across multiple devices (computer, phone, tablet, etc.) increases ease of use hurdles and increases security challenges.
+
+It seems there aren't yet any good solutions to these problems. But in the mean time, I'm planning to sign all messages I send *from* my home computer. And I'm making it possible for others to send me encrypted messages. I hope others will do the same.
+
+## Software
+
+- [Prism Break](http://prism-break.org/) - An exhaustive list of open software & services for the threatened or paranoid.
+- [GPG](http://www.gnupg.org/) - The standard in public-key encryption. For those that enjoy the command line.
+- [GPGMail](https://gpgtools.org/gpgmail/index.html) - GPG plugin for Apple Mail. The easiest to use I've seen so far.
+
+## Further reading
+
+- [We should all have something to hide](http://moxie.org/blog/we-should-all-have-something-to-hide/) - _Moxie Marlinspike_
+- [Schneier on Security](https://www.schneier.com/) - _Bruce Schneier_
+- [The NSA files](http://www.theguardian.com/world/the-nsa-files) - _The Guardian_
