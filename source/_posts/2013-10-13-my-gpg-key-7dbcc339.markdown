@@ -6,13 +6,13 @@ comments: true
 categories: 
 ---
 
-### Key fingerprint:
+### PGP Key fingerprint:
 
 ```
 C7C3 0951 F2A5 6B85 3CD7  8801 4EFD 0909 7DBC C339
 ```
 
-[Download key](/tomwhipple-7DBCC339.asc)
+[Download key](https://raw.github.com/tomwhipple/tomwhipple.github.com/master/tomwhipple-7DBCC339.asc)
 
 ## Long overdue
 
