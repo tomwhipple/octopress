@@ -26,3 +26,7 @@ Even with these problems there are a couple apps available, though it isn't appa
 - **[GPGME](http://www.gnupg.org/related_software/gpgme/index.en.html)** is an interface to the GPG binary. It might be possible to port GPG/GPGME to the iPhone, but the design of this library is based upon starting GPG as it's own process, which is forbidden by iOS. GPGME is licensed under the LGPL, but GPG is GPL'd, possibly making it unsuitable for App Store distribution. 
 - **[UNNetPGP](https://github.com/upnext/unnetpgp)** is based on NetPGP, the NetBSD PGP library. The BSD license is a better option for many apps, but NetPGP has not seen any active development since 2010. UUNetPGP still has some rough edges to be flushed out, but looks very promising if the underlying library is maintained.
 - **[libgcrypt](http://www.gnu.org/software/libgcrypt/)** is an actively maintained, LGPL, general purpose crypto library. However, it is *only* a crypto library. It doesn't handle keyring management and requires *much* more knowledge of crytpo on the part of the developer.
+
+
+
+*[Hacker News discussion](https://news.ycombinator.com/item?id=6726711)*
